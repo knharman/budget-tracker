@@ -17,3 +17,11 @@ request.onsuccess = function(event) {
 request.onerror = function(event) {
     console.log(event.target.errorCode);
 };
+
+
+// function to be executed if an attempt is made to submit a new transaction without an internet connection 
+function saveRecord(record) {
+    const transaction = db.transaction(['new_transaction'], 'readwrite');
+    const transactionObjectStore = transaction.objectStore('new_transaction');
+    transactionObjectStore.add(record);
+}
