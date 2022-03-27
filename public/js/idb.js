@@ -26,6 +26,10 @@ function saveRecord(record) {
     const bankTransactionObjectStore = transaction.objectStore('new_bankTransaction');
     
     bankTransactionObjectStore.add(record);
+
+    const feedback = record.value > 0 ? 'Deposit submitted.' : 'Expense submitted.';
+    alert(feedback);
+
 }
 
 function uploadBankTransaction() {
