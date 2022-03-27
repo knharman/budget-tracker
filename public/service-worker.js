@@ -14,7 +14,11 @@ const FILES_TO_CACHE = [
     '/icons/icon-384x384.png',
     '/icons/icon-512x512.png',
     '/js/idb.js',
-    '/js/index.js'
+    '/js/index.js', 
+    '/manifest.json',
+    '/',
+    'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+    'https://cdn.jsdelivr.net/npm/chart.js@2.8.0'
 ];
 
 
