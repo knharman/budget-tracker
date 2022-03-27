@@ -18,7 +18,8 @@
   ### Links
   Check out the deployed link [here](https://shrouded-lake-11820.herokuapp.com/)  
   ### Screenshot
-  Here is a screenshot of the deployed application [screenshot](./public/images/screenshot.png)
+  ![screenshot](public/images/screenshot.png)
   ### Questions
   If you have additional questions, you can contact me here: knharman@gmail.com
+
   Check out my GitHub: [knharman](https://github.com/knharman)
